@@ -1,0 +1,83 @@
+/* Custom styles for this template */
+body {
+    font-family: 'Lato', sans-serif;
+    padding-top: 54px;
+}
+@media (min-width: 992px) {
+    body {
+        padding-top: 56px;
+    }
+}
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+}
+.navbar-nav .nav-link {
+    color: #fff !important;
+}
+.navbar-toggler {
+    background-color: #e3a1e1 !important; /* Ubah warna latar belakang toggle navbar menjadi pink soft */
+}
+.navbar-toggler:focus, .navbar-toggler:active {
+    outline: none;
+}
+.masthead {
+    padding: 2rem 0;
+    background-color: #e3a1e1; /* Ubah warna latar belakang masthead menjadi pink soft */
+    color: #fff;
+    text-align: center;
+}
+.masthead-heading {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+.masthead-subheading {
+    font-size: 1.5rem;
+    font-weight: lighter;
+}
+.portfolio-item {
+    margin-bottom: 30px;
+}
+.portfolio-item-caption {
+    background-color: rgba(227, 161, 225, 0.8); /* Ubah warna latar belakang caption portofolio menjadi pink soft */
+    transition: background-color 0.3s ease-in-out;
+}
+.portfolio-item-caption-content {
+    font-size: 1.25rem;
+}
+.portfolio-item-caption:hover {
+    background-color: rgba(227, 161, 225, 1); /* Ubah warna latar belakang caption portofolio saat hover menjadi pink soft */
+}
+.page-section {
+    padding: 4rem 0;
+}
+.page-section-heading {
+    font-size: 3rem;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+.divider-custom {
+    margin: 2rem 0;
+}
+.divider-custom-line {
+    width: 100%;
+    margin: 0;
+    background-color: #e3a1e1; /* Ubah warna garis pemisah menjadi pink soft */
+    height: 1px;
+}
+.divider-custom-icon {
+    margin-top: -0.5rem;
+    padding: 1rem;
+    background-color: #e3a1e1; /* Ubah warna ikon garis pemisah menjadi pink soft */
+    border-radius: 50%;
+    color: #fff;
+}
+.footer {
+    background-color: #b27ab2; /* Ubah warna latar belakang footer menjadi pink soft yang lebih gelap */
+    color: #fff;
+    padding: 2rem 0;
+}
+.footer a {
+    color: #fff;
+}
